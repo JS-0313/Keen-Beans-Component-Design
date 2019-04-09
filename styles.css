@@ -1,3 +1,8 @@
+
+.TESTELEMENTDELETE {
+  padding-top: 100%;
+}
+
 .cards {
 
 }
@@ -6,7 +11,7 @@
 
 }
 
-.mainbody{
+.mainbody {
 
 }
 
@@ -14,8 +19,31 @@
 
 }
 
-.navbar_top {
+.navbar_top * {
+  padding: 5px;
+  background: url("redgradient.gif"); /* sourced from CDU site sourcecode */
+  color: white;
+}
 
+.navbar_top a { /* knowledge of psuedo-classes comes from https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links */
+  text-decoration: none;
+}
+
+.navbar_top a:hover {
+  text-decoration: underline;
+}
+
+.navbar_top > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar_top > ul > li {
+  float: left;
 }
 
 .searchbar {
