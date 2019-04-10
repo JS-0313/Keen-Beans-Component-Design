@@ -1,4 +1,3 @@
-
 .TESTELEMENTDELETE {
   padding-top: 100%;
 }
@@ -7,33 +6,88 @@
 
 }
 
+.dropdown li a {
+  background-color: #9B181C;
+}
+
+.dropdown li a:hover {
+  background-color: #7C1012;
+}
+
 .footers {
 
+}
+
+nav * {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 .mainbody {
 
 }
 
-.navbar_side {
-
+.searchbar {
+  top: 7%;
+  right: 1%;
+  position: fixed;
+  float: right;
 }
 
-.navbar_top * {
+.searchbar label {
+    display: inline;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.sidebar_nav {
+  height: auto;
+  width: auto;
+  position: fixed;
+  top: 8%;
+  left: 0;
+}
+
+.sidebar_nav a {
+  display: block;
+  color: white;
+  border-bottom: 1px dotted white;
+  padding: 1%;
+  background-color: #123768;
+}
+
+.sidebar_nav a:hover {
+  background-color: #84A1C0;
+}
+
+.sidebar_ul a:hover {
+  background-color: #0A274C;
+}
+
+.sidebar_ul li:hover ul {
+  display: block;
+}
+
+.sidebar_ul ul {
+  display: none;
+}
+
+.topbar_nav * {
   padding: 5px;
   background: url("redgradient.gif"); /* sourced from CDU site sourcecode */
   color: white;
+  left: 0;
 }
 
-.navbar_top a { /* knowledge of psuedo-classes comes from https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links */
+.topbar_nav a { /* knowledge of psuedo-classes comes from https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links */
   text-decoration: none;
 }
 
-.navbar_top a:hover {
+.topbar_nav a:hover {
   text-decoration: underline;
 }
 
-.navbar_top > ul {
+.topbar_nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -42,10 +96,6 @@
   width: 100%;
 }
 
-.navbar_top > ul > li {
+.topbar_nav ul li {
   float: left;
-}
-
-.searchbar {
-
 }
