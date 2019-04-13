@@ -1,0 +1,25 @@
+/* Heading CSS */
+h1 {
+  font-size: 35px;
+  font-family:serif;
+  font-style: normal;
+}
+
+h2 {
+  font-size:30px ;
+  font-family:serif ;
+  font-style:normal;
+}
+
+h3 {
+  font-size:25px ;
+  font-family:serif ;
+  font-style:normal ;
+}
+
+/* Header 4 will be used for links only */
+h4 {
+  font-size:20px ;
+  font-family:serif ;
+  font-style: italic;
+}
