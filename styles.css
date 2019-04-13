@@ -45,4 +45,40 @@ h4 {
 
 .colour_header_b {
 	background: #17345f;
+
+/* Links CSS */
+
+.link_list * {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+
+.unvisited_link a {
+  color: #005DAE;
+  text-decoration: underline;
+}
+
+.visted_link a {
+  color: red;
+  text-decoration: underline;
+}
+
+.side_nav_link a {
+  color: white;
+  background-color: #9B181C;
+}
+
+.side_nav_link a:hover {
+  background-color: #7C1012;
+}
+
+.top_nav_link a {
+  color: white;
+  background-color: #E8090C;
+}
+
+.top_nav_link a:hover {
+  text-decoration: underline;
+>>>>>>> e54474610b87a9829c04fb5a7fbaf541e8cec1d8
 }
