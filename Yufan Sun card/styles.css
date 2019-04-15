@@ -1,0 +1,124 @@
+/* Heading CSS */
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+  font-size: 35px;
+  font-family:serif;
+  font-style: normal;
+}
+
+h2 {
+  font-size:30px ;
+  font-family:serif ;
+  font-style:normal;
+}
+
+h3 {
+  font-size:25px ;
+  font-family:serif ;
+  font-style:normal ;
+}
+
+/* Header 4 will be used for links only */
+h4 {
+  font-size:20px ;
+  font-family:serif ;
+  font-style: italic;
+}
+
+p, strong, em{
+  font-size:16px ;
+  font-family:arial ;
+}
+/* Links CSS */
+
+.link_list * {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+
+.unvisited_link a {
+  color: #005DAE;
+  text-decoration: underline;
+}
+
+.visted_link a {
+  color: red;
+  text-decoration: underline;
+}
+
+.side_nav_link a {
+  color: white;
+  background-color: #9B181C;
+}
+
+.side_nav_link a:hover {
+  background-color: #7C1012;
+}
+
+.top_nav_link a {
+  color: white;
+  background-color: #E8090C;
+}
+
+.top_nav_link a:hover {
+  text-decoration: underline;
+>>>>>>> e54474610b87a9829c04fb5a7fbaf541e8cec1d8
+}
+
+
+.colour {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.colour_page_b {
+	background: #ececff
+}
+
+.colour_text_b {
+	background: #f9f9ff;
+}
+
+.colour_navigationbar_b {
+	background: #b02717;
+}
+
+.colour_header_b {
+	background: #17345f;
+}
+
+@media (min-width: 600px) {
+	body {
+		width: 600px;
+		margin: auto;
+	}
+}
+
+
+/*This is individual card css of Yufan Sun*/
+.container {
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: space-around;
+
+}
+
+.card {
+   background: tomato;
+   padding: 5px;
+   margin-top: 10px;
+   width: 300px;
+   color: white;
+   font-weight: bold;
+   font-size: 3em;
+   text-align: center;
+}
