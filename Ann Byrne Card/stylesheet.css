@@ -1,0 +1,30 @@
+h1 {
+  font-size: 25px;
+  font-family: serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: serif;
+  margin-left: 10px;
+  }
+
+p {
+  font-family: serif;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card {
+  border: 2px dotted #022F8F;
+}
+
+/* found how to do this here: https://stackoverflow.com/questions/9980531/center-image-in-div-horizontally */
+.Card-Image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
