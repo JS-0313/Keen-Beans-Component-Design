@@ -1,3 +1,17 @@
+/*background settings*/
+body{
+  background: #ececff;
+}
+
+main {
+  background: #f9f9ff;
+  margin-top: 0;
+  padding: 20px 10px;
+  border-left: 1px solid #0a0a69;
+  border-right: 1px solid #0a0a69;
+}
+
+
 /* Heading CSS */
 
 * {
@@ -71,6 +85,7 @@ p, strong, em{
 }
 
 
+/*colour sample*/
 .colour {
 	width: 50px;
 	height: 50px;
@@ -96,29 +111,56 @@ p, strong, em{
 
 @media (min-width: 600px) {
 	body {
-		width: 600px;
-		margin: auto;
+		width: 900px;
+		margin-left:auto;
+    margin-right:auto;
 	}
 }
 
 
+
+
+
 /*This is individual card css of Yufan Sun*/
-.container {
+.container{
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-around;
-  flex-direction: row;
+  flex-direction: column;
   align-content: space-around;
 
 }
 
 .card {
-   background: tomato;
-   padding: 5px;
-   margin-top: 10px;
-   width: 300px;
-   color: white;
-   font-weight: bold;
-   font-size: 3em;
-   text-align: center;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background: #ececff;
+   margin: 10px;
+}
+
+.card_image{
+  margin:0;
+  padding:0;
+}
+.card_content{
+  margin-left: 10px;
+  text-align: center;
+}
+
+.card_name{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*
+color: white;
+font-weight: bold;
+font-size: 3em;
+text-align: center;
+*/
+@media (max-width: 600px) {
+	.card {
+    flex-direction: column;
+	}
 }
