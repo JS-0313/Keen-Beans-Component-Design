@@ -90,3 +90,19 @@ p, strong, em{
 .colour_header_b {
 	background: #17345f;
 }
+
+.colour_sidenavigationbarheader_b {
+  background: #123768;
+}
+
+.colour_sidenavigationbarlink_b {
+  background: #b02717;
+}
+
+.colour_sidenavigationbarheaderhover_b {
+  background: #84A1C0;
+}
+
+.colour_sidenavigationbarlinkhover_b {
+  background: #9B181C;
+}
