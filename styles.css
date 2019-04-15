@@ -11,24 +11,28 @@ main {
   border-right: 1px solid #0a0a69;
 }
 
-
 /* Heading CSS */
+/* text CSS used for headings found here: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text and here https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing */
 h1 {
   font-size: 35px;
   font-family:serif;
   font-style: normal;
+  word-spacing: .3rem;
+  text-align: center;
 }
 
 h2 {
   font-size:30px ;
   font-family:serif ;
   font-style:normal;
+  word-spacing: .3rem;
 }
 
 h3 {
   font-size:25px ;
   font-family:serif ;
   font-style:normal ;
+  word-spacing: .3rem;
 }
 
 /* Header 4 will be used for links only */
@@ -36,6 +40,7 @@ h4 {
   font-size:20px ;
   font-family:serif ;
   font-style: italic;
+  word-spacing: .2rem;
 }
 
 p, strong, em{
