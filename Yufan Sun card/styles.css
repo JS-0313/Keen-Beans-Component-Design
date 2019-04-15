@@ -1,4 +1,9 @@
 /* Heading CSS */
+
+* {
+	box-sizing: border-box;
+}
+
 h1 {
   font-size: 35px;
   font-family:serif;
@@ -33,10 +38,7 @@ p, strong, em{
 .link_list * {
   text-decoration: none;
   list-style: none;
-}
-
-.link_list {
-  padding: 0;
+  list-style-type: none;
 }
 
 .unvisited_link a {
@@ -65,6 +67,7 @@ p, strong, em{
 
 .top_nav_link a:hover {
   text-decoration: underline;
+>>>>>>> e54474610b87a9829c04fb5a7fbaf541e8cec1d8
 }
 
 
@@ -89,4 +92,33 @@ p, strong, em{
 
 .colour_header_b {
 	background: #17345f;
+}
+
+@media (min-width: 600px) {
+	body {
+		width: 600px;
+		margin: auto;
+	}
+}
+
+
+/*This is individual card css of Yufan Sun*/
+.container {
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: space-around;
+
+}
+
+.card {
+   background: tomato;
+   padding: 5px;
+   margin-top: 10px;
+   width: 300px;
+   color: white;
+   font-weight: bold;
+   font-size: 3em;
+   text-align: center;
 }
