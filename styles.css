@@ -24,28 +24,10 @@ h4 {
   font-style: italic;
 }
 
-.colour {
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	border: 1px solid black;
+p, strong, em{
+  font-size:16px ;
+  font-family:arial ;
 }
-
-.colour_page_b {
-	background: #ececff
-}
-
-.colour_text_b {
-	background: #f9f9ff;
-}
-
-.colour_navigationbar_b {
-	background: #b02717;
-}
-
-.colour_header_b {
-	background: #17345f;
-
 /* Links CSS */
 
 .link_list * {
@@ -81,4 +63,28 @@ h4 {
 .top_nav_link a:hover {
   text-decoration: underline;
 >>>>>>> e54474610b87a9829c04fb5a7fbaf541e8cec1d8
+}
+
+
+.colour {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.colour_page_b {
+	background: #ececff
+}
+
+.colour_text_b {
+	background: #f9f9ff;
+}
+
+.colour_navigationbar_b {
+	background: #b02717;
+}
+
+.colour_header_b {
+	background: #17345f;
 }
