@@ -17,8 +17,17 @@ p {
   margin-right: 10px;
 }
 
+a:active {
+  color: #e38143;
+}
+
+a:visited {
+  color:#469898;
+}
+
 .card {
-  border: 2px dotted #022F8F;
+  border: 1px dotted #022F8F;
+  background-color: #fefffa;
 }
 
 /* found how to do this here: https://stackoverflow.com/questions/9980531/center-image-in-div-horizontally */
