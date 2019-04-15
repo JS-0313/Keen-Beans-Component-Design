@@ -45,6 +45,7 @@ h4 {
 
 .colour_header_b {
 	background: #17345f;
+}
 
 /* Links CSS */
 
@@ -83,5 +84,4 @@ h4 {
 
 .top_nav_link a:hover {
   text-decoration: underline;
->>>>>>> e54474610b87a9829c04fb5a7fbaf541e8cec1d8
 }
