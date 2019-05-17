@@ -1,2 +1,2 @@
 # Keen-Beans-Component-Design
-HIIIII ITS JORDI
+# this thing is big dumb
